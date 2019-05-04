@@ -1,15 +1,14 @@
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
 public class ExerciseThree {
 
-    public String m3(String p1, String p2) {
-        if (p2 == "")
+    public String hashingEx(String p1, String p2) {
+    	if (p1 == p2)
+            return "";
+    	if (p2 == "")
             return p1;
-        if (p1 == p2)
-            return null;
 
         String returnValue = "";
 

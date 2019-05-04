@@ -1,14 +1,18 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class ExerciseTwoTest {
 	
 	ExerciseTwo t2 = new ExerciseTwo();
 	
-	@Test
-	void testxMethod() {
-		 System.out.println(t2.xMethod(5));
-		 t2.xMethod(4);
+	// The two tests to check the if statement in xMethod.
 	
+	@Test
+	void testxMethod1() {
+		 assertEquals("***3", t2.xMethod(3), "Must be ***3");
 	}
-
+	@Test
+	void testxMethod2() {
+		 assertEquals("incorrect number", t2.xMethod(-1), "Must print out 'incorrect number'");
+	}
 }
