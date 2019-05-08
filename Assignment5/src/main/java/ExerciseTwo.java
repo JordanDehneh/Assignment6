@@ -1,3 +1,7 @@
+// Name: Jordan Dehneh
+// Subject: Software Engineering tools and methods
+
+
 public class ExerciseTwo {
 	
 	public String xMethod(int x) {

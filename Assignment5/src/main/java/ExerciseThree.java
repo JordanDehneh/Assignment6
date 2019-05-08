@@ -1,3 +1,6 @@
+// Name: Jordan Dehneh
+// Subject: Software Engineering tools and methods
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;

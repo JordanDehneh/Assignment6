@@ -1,3 +1,6 @@
+// Name: Jordan Dehneh
+// Subject: Software Engineering tools and methods
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 

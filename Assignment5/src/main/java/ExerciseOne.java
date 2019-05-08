@@ -1,3 +1,6 @@
+// Name: Jordan Dehneh
+// Subject: Software Engineering tools and methods
+
 public class ExerciseOne {
 	public boolean login (String username, String password){
 		// check parameters are not in blank
